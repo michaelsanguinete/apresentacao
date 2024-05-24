@@ -15,10 +15,14 @@ public class ApresentacaoService {
     }
 
     public boolean ehPositivo(int numero) {
-        return numero > 0;
+        if(numero > 0) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
-    public boolean retornaMaiorValorLong(Long numero1, Long numero2) {
+    public boolean isMaior(Long numero1, Long numero2) {
         if(numero1 > numero2) {
             return true;
         } else if (numero1 < numero2) {
