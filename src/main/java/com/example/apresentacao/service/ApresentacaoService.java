@@ -15,11 +15,7 @@ public class ApresentacaoService {
     }
 
     public boolean ehPositivo(int numero) {
-        if (numero > 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return numero > 0;
     }
 
     public boolean retornaMaiorValorLong(Long numero1, Long numero2) {
