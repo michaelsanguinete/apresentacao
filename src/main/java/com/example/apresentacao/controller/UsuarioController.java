@@ -29,4 +29,6 @@ public class UsuarioController {
     public List<UsuarioResponse> buscarTodos() {
         return usuarioService.buscarTodos();
     }
+
+
 }
